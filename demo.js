@@ -3,7 +3,8 @@
 $(document).ready(function() {
 
       $('ul.mainnav a').smoothScroll();
-
+	  $('.button1').smoothScroll();
+	  $('.ring').smoothScroll();
       $('p.subnav a').click(function(event) {
         event.preventDefault();
         var link = this;
